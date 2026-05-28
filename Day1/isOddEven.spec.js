@@ -1,0 +1,12 @@
+var num = 4;
+
+function isOddEven(num) {
+    if (num % 2 === 0) {
+        return "Even number";
+    } else {
+        return "Odd number";
+    }
+}
+
+console.log(isOddEven(num));
+console.log(isOddEven(7));  
